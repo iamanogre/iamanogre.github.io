@@ -1,0 +1,64 @@
+html, body {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	color: blue;
+}
+
+p {
+	color: red;
+}
+
+#menubar {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 150px;
+	height: 300px;
+	/* position: relative; */
+	/* height: 100%; */
+	/* bottom: 0; */
+
+}
+
+#main {
+	/*position: fixed; */
+	border: 0;
+	margin: 0;
+	padding: 0;
+	float: center;
+	height: 100%;
+}
+
+ul {
+	list-style-type: none;
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+a:link, a:visited {
+    display: block;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #98bf21;
+    width: 120px;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover, a:active {
+    background-color: #7A991A;
+}
