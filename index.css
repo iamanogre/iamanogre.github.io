@@ -1,50 +1,65 @@
-html, body {
+* {
 	border: 0;
 	margin: 0;
 	padding: 0;
+}
+
+html, body {
+	height: 100%;
+	min-height: 100%
 }
 
 h1 {
 	color: blue;
+	font-size: 1000%;
 }
 
 p {
 	color: red;
+	font-size: 135%;
 }
 
 #menubar {
-	border: 0;
-	margin: 0;
-	padding: 0;
+	background: #FFFFFF;
 	float: left;
-	width: 150px;
-	height: 300px;
+	height: auto;
+	min-height: 100%;
 	/* position: relative; */
-	/* height: 100%; */
-	/* bottom: 0; */
+	/* position: fixed; */ /* can I have both like this */
+	margin: 100px;
 
 }
 
 #main {
 	/*position: fixed; */
-	border: 0;
-	margin: 0;
-	padding: 0;
-	float: center;
+	
+	/* clear: both; */
 	height: 100%;
+	width: 1000px;
+	/* position: relative; */
+	margin: 50px;
 }
 
 ul {
 	list-style-type: none;
-	border: 0;
-	margin: 0;
-	padding: 0;
+	position: relative;
 }
 
 li {
-	border: 0;
-	margin: 0;
-	padding: 0;
+
+}
+
+#Stray {
+	display: block;
+    font-weight: bold;
+    color: #98bf21;
+    background-color: #FFFFFF;
+    width: 135px;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 135%;
 }
 
 a:link, a:visited {
@@ -52,11 +67,13 @@ a:link, a:visited {
     font-weight: bold;
     color: #FFFFFF;
     background-color: #98bf21;
-    width: 120px;
+    width: 135px;
     text-align: center;
-    padding: 4px;
+    padding: 5px;
     text-decoration: none;
     text-transform: uppercase;
+	border-radius: 10px;
+    font-size: 135%;
 }
 
 a:hover, a:active {
