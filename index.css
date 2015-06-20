@@ -1,81 +1,22 @@
-* {
-	border: 0;
-	margin: 0;
-	padding: 0;
+html {
+	text-align: center;
 }
 
-html, body {
-	height: 100%;
-	min-height: 100%
+.jumbotron 
+{
+	background-image: url("img/home.jpg");
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: auto;
+	font-weight: bolder;
 }
 
-h1 {
-	color: blue;
-	font-size: 1000%;
-}
-
-p {
-	color: red;
-	font-size: 135%;
-}
-
-#menubar {
-	background: #FFFFFF;
-	float: left;
-	height: auto;
-	min-height: 100%;
-	/* position: relative; */
-	/* position: fixed; */ /* can I have both like this */
-	margin: 100px;
-
-}
-
-#main {
-	/*position: fixed; */
-	
-	/* clear: both; */
-	height: 100%;
-	width: 1000px;
-	/* position: relative; */
-	margin: 50px;
-}
-
-ul {
-	list-style-type: none;
-	position: relative;
-}
-
-li {
-
-}
-
-#Stray {
-	display: block;
-    font-weight: bold;
-    color: #98bf21;
-    background-color: #FFFFFF;
-    width: 135px;
-    text-align: center;
-    padding: 5px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 135%;
-}
-
-a:link, a:visited {
-    display: block;
-    font-weight: bold;
-    color: #FFFFFF;
-    background-color: #98bf21;
-    width: 135px;
-    text-align: center;
-    padding: 5px;
-    text-decoration: none;
-    text-transform: uppercase;
-	border-radius: 10px;
-    font-size: 135%;
-}
-
-a:hover, a:active {
-    background-color: #7A991A;
+.test {
+    padding: 15px;
+    font-size: 18px;
+    min-height: 300px;
+    background: #dbdfe5;
+    margin-bottom: 10px;
 }
